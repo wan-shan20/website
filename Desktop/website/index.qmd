@@ -1,0 +1,81 @@
+---
+title: "Hi, I'm Wan-Shan, Tseng"
+---
+
+::: {.text-center style="margin-top: 2rem; padding: 2rem; background-color: #ffe0e9; border-radius: 10px; color: #111;"}
+## ☀️ Are you ready for summer break?
+
+<button class="btn btn-warning" onclick="summerYes()">
+
+Yes, bring it on! 😎
+
+</button>
+
+<button class="btn btn-danger" onclick="summerNo()" style="margin-left: 1rem;">
+
+Not really... 🫠
+
+</button>
+
+<p id="summer-answer" style="margin-top: 1.5rem; font-size: 1.2rem; color: #111;">
+
+</p>
+:::
+
+<br><br>
+
+::: {.column .text-center width="100%"}
+<img src="me.jpg" width="200" height="200" style="border-radius: 50%; object-fit: cover;"/>
+:::
+
+I'm a student at Cal Poly Pomona. I excel at identifying overlooked challenges and delivering innovative yet feasible solutions that drive real impact.
+
+:::::: text-center
+## About Me
+
+Pursuing a Master’s degree in Digital Marketing & Analytics at California State Polytechnic University-Pomona.
+
+Gamer🎮. Movie lover🎥. Occasional reader📚.
+
+:::: text-center
+[LinkedIn](www.linkedin.com/in/wan-shan-tseng-3b2a15345){.btn .btn-warning target="_blank"} [Email](sammy900126@gmail.com){.btn .btn-warning target="_blank"}
+
+## The course I took in MSDM
+
+::: {.course-table style="color: var(--bs-body-color); background-color: var(--bs-body-bg); padding: 1rem; border-radius: 8px;"}
+|          |                                                      |         |
+|:--------:|:-----------------------------------------------------|:-------:|
+| Semester | Courses                                              | Credits |
+|   Fall   | IBM 6010 (Digital Marketing)                         |    3    |
+|          | IBM 6510 (Foundations of Customer Analytics)         |    3    |
+|          | IBM 6200 (Online Consumer Psychology and Behaviors)  |    3    |
+|  Spring  | IBM 6100 (Search Engine Marketing)                   |    2    |
+|          | IBM 6150 (Database Marketing)                        |    2    |
+|          | IBM 6520 (Market Forecasting)                        |    2    |
+|          | IBM 6530 (Marketing Analytics)                       |    3    |
+|          | IBM 6400 (Current Issues in Digital Marketing)       |    1    |
+|          | IBM 6800 (Data-Driven Digital Marketing Strategy I)  |    2    |
+|  Summer  | IBM 6540 (Marketing Data Science)                    |    3    |
+|          | IBM 6300 (Retailing in Digital Economy)              |    3    |
+|          | IBM 6600 (Text Analysis for Digital Marketing)       |    2    |
+|          | IBM 6950 (Data-Driven Digital Marketing Strategy II) |    2    |
+:::
+::::
+
+## Certifications
+
+::: text-center
+Microsoft Office Specialist: Excel Associate\
+*Excel and Excel 2019*
+
+Google Analytics Certification\
+Dive Deeper into GA4 Data and Reports\
+Use GA4 with Other Tools and Data Sources
+:::
+
+------------------------------------------------------------------------
+::::::
+
+::: text-center
+## [**Let me show you more about who I am️👋**]{style="color: orange; font-weight: bold;"}
+:::

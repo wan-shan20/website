@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: e27a0c18-8b8b-4811-8a15-45e59c7254fc
+      url: https://shan.quarto.pub/shan

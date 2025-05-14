@@ -1,0 +1,85 @@
+---
+title: "Post-Pandemic Coffee Shop"
+subtitle: "Proposal Presentation"
+author: "Wan-Shan, Tseng"
+institute: "IBM 6400, Cal Poly Pomona"
+date: "03/21/2025"
+format: 
+  revealjs:
+    theme: league
+    width: 1600
+    height: 900
+    footer: Vivot Coffee Shop
+    transition: slide
+    transition-speed: default
+    incremental: false
+    toc: true
+    toc-depth: 1
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
+---
+
+# What is labelled data?
+
+**Labelled data means each data point has a question and a clear target outcome.**
+
+For example, in a survey that asks, “Will you wear a mask at a coffee shop during a future pandemic?”, your answer is the target outcome (label). Other things like your age, intentions, attitudes, thoughts, and past experiences are used to help predict that answer.
+
+In short, labelled data is data where we know what we want to predict, and it can be used to train models for classification or prediction.
+
+# Does your MSDM CEP involve labelled data?
+
+**Yes!**
+
+-   In the future pandemic, I plan to wear a mask during my stay in a coﬀee shop when my stay is at least15 minutes.
+
+-   In the future pandemic, I will exert eﬀort to wear a mask during my next stay at a coﬀee shop when it is at least 15 minutes.
+
+-   In the future pandemic, I would be willing to wear a mask during my next stay at a coﬀee shop when it is at least 15 minutes.
+
+    These three questions measure whether participants are willing to wear a mask in a coffee shop during a future pandemic. This is a clear prediction target, so it can be used as the **label** in the model. Other questions in the survey—such as health beliefs, cultural values, and demographic information—can be used as **features** to help predict that label. Since the data includes a clear target and useful predictors, it is considered **labelled data** and is suitable for supervised learning models.
+
+# Describe the two processes.
+
+**In *Video 1*, it shows how to extract useful insights from the data,** such as the number of participants, participation rate, and amount of money spent. Based on these findings, the team decided to invite more people to join the pre-test. They found that only 25% of participants were eligible, and those individuals were invited to the main study.
+
+Next, they used the `filter()` function to select participants who had paid for the service and those whose responses had timed out. Since these responses were still usable, the team decided to include them. After that, they used the `count()` and `mutate()` functions to create a new column called `percent`.
+
+# Describe the two processes. (cont'd)
+
+**In *Video 2*, it shows the process of further cleaning the data.** The team reviewed the variables and used functions like `create()` and `mutate()` to build a frequency distribution table.
+
+Then, they examined the system-generated data, which refers to information automatically recorded by the system.
+
+In the next section, the video explains how many participants gave consent. The team used `unique()` to check whether participant IDs were truly unique. Although two identical IDs were found, they confirmed that they belonged to two different individuals.
+
+Later, the team discovered that the values in one of the Likert-scale questions were disordered. To correct this and prepare the data for analysis, they used `mutate()` and `group_by()` to recode the responses properly.
+
+# What are the big differences between the two? 
+
+**The level of data cleaning** is different in the two videos.
+
+In ***Video 1***, the focus is on evaluating the overall usability of the survey and checking the total number of valid samples.
+
+In ***Video 2***, the team performs more detailed data cleaning by reviewing each variable, checking frequency distributions, and recoding incorrect values to make the data accurate and easier to analyze.
+
+# How do the differences result in the differences in the final sample size? 
+
+The differences in the two data cleaning approaches directly affected the final sample size.
+
+In ***Video 1***, the team only evaluated the overall usability of the survey, so most responses were retained, even if some contained minor issues.
+
+In contrast, ***Video 2*** involved a more detailed and stricter data cleaning process. The team reviewed each variable individually and corrected or excluded inaccurate data. Because of these stricter standards, some responses were removed, resulting in a smaller final sample size. For example, the team only kept participants who had visited a coffee shop, and in some questions, they further filtered for those who had tested positive for COVID-19 during the pandemic.
+
+# Thank you!

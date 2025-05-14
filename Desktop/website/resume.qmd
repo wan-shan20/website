@@ -1,0 +1,68 @@
+---
+title: "Résumé"
+---
+
+::: {.text-center style="margin-top: 2rem; background-color: #ffe0e9; padding: 2rem; border-radius: 10px;"}
+
+## 📄 Would you like to grab a free PDF version of my résumé?
+
+No email sign-up, no ads, no membership.  
+Just pure professional content.
+
+<a href="files/Resume.pdf" download class="btn btn-warning" style="margin-top: 1rem;">
+  📄 Click here to download résumé ✨
+</a>
+
+:::
+
+
+
+## Professional Summary
+
+Results-oriented marketing and analytics professional with a strong foundation in data analysis, digital strategy, and performance reporting. Skilled in leveraging analytics tools and programming languages to uncover insights and support decision-making across cross-functional teams.
+
+## Technical Skills
+
+-   **Programming Languages:** R
+-   **Tools**: Google Analytics, Screaming Frog, Canva, Microsoft Office Software
+
+## Language
+
+Mandarin, English
+
+## Education
+
+::: {.course-table style="color: var(--bs-body-color); background-color: var(--bs-body-bg); padding: 1rem; border-radius: 8px;"}
+
++-------------------------------------------------+----------------------+--------------------------------------+------------------------------------------------------+
+| Degree                                          | Year                 | College / Department                 | Institution                                          |
++=================================================+======================+======================================+======================================================+
+| M.S. in Digital Marketing                       | Aug, 2024 - Present  | College of Business Administration\  | California State Polytechnic University, Pomona      |
+|                                                 |                      | Singelyn Graduate School of Business |                                                      |
++-------------------------------------------------+----------------------+--------------------------------------+------------------------------------------------------+
+| Master of International Business Administration | Sep, 2023 - Present  | College of Management                | National Yunlin University of Science and Technology |
++-------------------------------------------------+----------------------+--------------------------------------+------------------------------------------------------+
+| B.S. in Business Administration                 | Sep, 2019 - Jun,2023 | College of Management                | National Yunlin University of Science and Technology |
++-------------------------------------------------+----------------------+--------------------------------------+------------------------------------------------------+
+:::
+
+## Work Experience
+
+### Marketing Planning Consultant (Micro-Internship), Trauma Resource Institut**e**
+
+*Oct, 2024 - Dec, 2024*
+
+\- Analyzed TRI's performance on Google keywords, evaluated the strengths and weaknesses of the official website, and assessed the effectiveness of social media platforms
+
+\- Identified areas for improvement on social media platforms based on the analysis results and formulated suitable marketing strategies, such as optimizing post types and content on social media
+
+\- Delivered the final proposal to the organization's leaders, earning their enthusiastic praise. They commended our proposal for its creativity and remarked on how deeply it impressed them
+
+### Teaching Assistance, National Yunlin University of Science and Technology, BA office
+
+*Feb, 2023 - Jun, 2023*
+
+\- Graded the students' assignments, which required them to connect the organizational theories and practices they had learned, verified word by word whether their correspondences were accurate and assign scores accordingly
+
+\- Using Excel, consolidated the students' grades
+

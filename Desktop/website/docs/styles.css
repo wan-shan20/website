@@ -1,0 +1,42 @@
+/* 固定導覽列設定（保證黏住 + 顏色自適應） */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* 自動變白底黑字（淺色模式） */
+@media (prefers-color-scheme: light) {
+  .navbar {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .navbar a,
+  .navbar .navbar-brand {
+    color: #000000 !important;
+  }
+}
+
+/* 深色模式 */
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background-color: var(--bs-body-bg) !important;
+    color: var(--bs-body-color) !important;
+  }
+
+  .navbar a,
+  .navbar .navbar-brand {
+    color: var(--bs-body-color) !important;
+  }
+}
+
+/* 保留導覽列的高度，避免被遮住：⚠️ 用更明確的容器指定 */
+body,
+main.content,
+.page-columns {
+  padding-top: 4.5rem !important;
+}
